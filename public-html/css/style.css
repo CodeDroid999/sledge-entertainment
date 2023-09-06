@@ -147,7 +147,7 @@ body {
 }
 
 .header_top {
-  background-color: #1c1c1c;
+  background-color:#140656;
   padding: 15px 0;
 }
 
@@ -469,7 +469,7 @@ a:focus {
 }
 
 .service_section {
-  background-color: #1c1c1c;
+  background-color:#0d0438;
 }
 
 .service_section .heading_container {
@@ -617,6 +617,7 @@ a:focus {
 .contact_section {
   position: relative;
   color: #ffffff;
+  background-color: #1d0680;
 }
 
 .contact_section .row {
@@ -790,7 +791,7 @@ a:focus {
 }
 
 .info_section {
-  background-color: #101010;
+  background-color: #211169;
   color: #ffffff;
   padding: 75px 0 10px 0;
 }
@@ -902,7 +903,7 @@ a:focus {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 20px;
-  background-color: #101010;
+  background-color: #14013e;
 }
 
 .footer_section p {
@@ -913,6 +914,11 @@ a:focus {
 
 .footer_section a {
   color: rgba(254, 254, 255, 0.7);
+}
+
+.image-box{
+  max-height:2rem;
+  max-width: 4rem;
 }
 
 /* end footer section*/
