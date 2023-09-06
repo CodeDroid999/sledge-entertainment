@@ -617,7 +617,8 @@ a:focus {
 .contact_section {
   position: relative;
   color: #ffffff;
-  background-color: #1d0680;
+  background-color: #14013e;
+
 }
 
 .contact_section .row {
@@ -791,8 +792,8 @@ a:focus {
 }
 
 .info_section {
-  background-color: #211169;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #060606;
   padding: 75px 0 10px 0;
 }
 
@@ -825,7 +826,7 @@ a:focus {
 
 .info_section .info_logo .navbar-brand span {
   font-size: 24px;
-  color: #ffffff;
+  color: #353535;
 }
 
 .info_section .info_links ul {
@@ -837,7 +838,7 @@ a:focus {
 }
 
 .info_section .info_links ul li a {
-  color: #ffffff;
+  color: #090f49;
 }
 
 .info_section .info_contact {
@@ -851,7 +852,7 @@ a:focus {
 }
 
 .info_section .info_contact a {
-  color: #ffffff;
+  color: #160745;
   margin-bottom: 10px;
 }
 
@@ -872,7 +873,7 @@ a:focus {
   padding: 8px 35px;
   outline: none;
   border: none;
-  color: #ffffff;
+  color: #0d0d0d;
   background: #f1db25;
   border-radius: 30px;
   margin-top: 15px;
@@ -885,11 +886,12 @@ a:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  
 }
 
 .info_section .info_form .social_box a {
   margin-right: 10px;
-  color: #ffffff;
+  color: #050b36;
   font-size: 20px;
 }
 
