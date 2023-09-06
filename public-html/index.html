@@ -65,7 +65,7 @@
           <nav class="navbar navbar-expand-lg custom_nav-container">
             <a class="navbar-brand" href="#home">
               <div class="image-box">
-                <img src="images/logo1.png alt="" style="max-height:75px;">
+                <img src="images/log.png" alt="" style="max-height:75px;">
               </div>
 
             </a>
@@ -916,29 +916,26 @@
       <div class="">
         <div class="row">
           <div class="col-md-7 mx-auto">
-            <form action="#">
+            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xwkdbwbw" method="post">
               <div class="contact_form-container">
-                <div>
-                  <div>
-                    <input type="text" placeholder="Full Name" />
-                  </div>
-                  <div>
-                    <input type="email" placeholder="Email " />
-                  </div>
-                  <div>
-                    <input type="text" placeholder="Phone Number" />
-                  </div>
-                  <div class="">
-                    <input type="text" placeholder="Message" class="message_input" />
-                  </div>
-                  <div class="btn-box ">
-                    <button type="submit">
-                      Send
-                    </button>
-                  </div>
+
+              <fieldset id="fs-frm-inputs">
+                <label for="full-name">Full Name</label>
+                <input type="text" name="name" id="full-name" placeholder="John Doe" required="">
+                <label for="email-address">Email Address</label>
+                <input type="email" name="_replyto" id="email-address" placeholder="example@gmail.com" required="">
+                <div class="div">
+                  <label for="message">Message</label>
                 </div>
+                <div class="flex flex-col">
+                <textarea rows="5" name="message" id="message"placeholder="Message" class="message_input w-100" required=""></textarea>
+                </div>
+                <input type="hidden" name="_subject" id="email-subject" value="New Contact Form Submission">
+              </fieldset>
+              <input type="submit" value="Submit" style="background-color:#dd750d">
               </div>
             </form>
+            
           </div>
         </div>
       </div>
